@@ -37,9 +37,6 @@ header div.wrapper {
 header .wrapper .left {
   display: flex;
 }
-header .wrapper .left .logo img{
-
-}
 header .wrapper .navbar ul {
   display: flex;
   list-style: none;
@@ -51,6 +48,7 @@ header .wrapper .navbar ul li {
 header .wrapper .navbar ul li a {
   text-decoration: none;
   color: var(--Grayishblue);
+  font-family: "Kumbh Sans", sans-serif;
 }
 header .wrapper .right {
   display: flex;
@@ -70,4 +68,138 @@ header .wrapper .right .avatar img {
   height: 60px;
   cursor: pointer;
 }
+hr {
+  max-width: 1280px;
+  margin: 0 auto;
+  color: var(--Lightgrayishblue);
+}
+/* spotlight section */
 
+#spotlight {
+}
+#spotlight .wrapper {
+  display: flex;
+  padding: 80px 0;
+  justify-content: space-between;
+}
+#spotlight .left {
+  width: 40%;
+  padding-left: 60px;
+}
+#spotlight .left .currentImg .thumbImg {
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
+}
+#spotlight .left .list ul {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  padding-left: 0;
+  padding-top: 40px;
+}
+#spotlight .left .list ul li {
+  padding-right: 23px;
+}
+#spotlight .left .list ul li img.active {
+  border: 3px solid var(--orange);
+  opacity: 0.5;
+}
+#spotlight .left .list ul img {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+}
+#spotlight .right {
+  width: 50%;
+}
+#spotlight .right .heading {
+  display: block;
+  color: var(--orange);
+  font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+#spotlight .right h2 {
+  font-size: 42px;
+  margin: 10px 0;
+}
+#spotlight .right p {
+  width: 75%;
+  color: var(--Darkgrayishblue);
+  margin: 25px 0;
+  line-height: 0.7cm;
+  font-size: 16px;
+}
+#spotlight .right .price .amt {
+  font-size: 32px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+#spotlight .right .price .offer {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  background: var(--paleOrange);
+  color: var(--orange);
+  text-align: center;
+  font-weight: 700;
+  border-radius: 8px;
+  padding-top: 5px;
+}
+#spotlight .right .realprice {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  text-decoration: line-through;
+  color: var(--Darkgrayishblue);
+  font-weight: 500;
+}
+#spotlight .right .btnsection {
+  display: flex;
+  margin-top: 35px;
+}
+#spotlight .right .addandremove{
+  width: 120px;
+  background: var(--Lightgrayishblue);
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin-right: 30px;
+}
+#spotlight .right .addandremove .minus{
+  width: 12px;
+  height: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+#spotlight .right .addandremove .plus{
+  width: 12px;
+  height: 14px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#spotlight .right .btnbuy{
+  width: 220px;
+  background: var(--orange);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#spotlight .right .btnbuy a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 12px 18px;
+}
+#spotlight .right .btnbuy a img{
+  padding-right: 15px;
+}
